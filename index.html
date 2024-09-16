@@ -1,155 +1,247 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/1d91c3d9dc.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" type="text/css" href="Contact.css">
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+
+    <!--FONTAWESOME-->
     <script src="https://kit.fontawesome.com/1d91c3d9dc.js" crossorigin="anonymous"></script>
-    <title>About Us</title>
-</head>
-<body>
-    <div class="majorContainer">
-        <div class="navContainer">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="#"><h1>Cred-Lib</h1></a>
-                </div>
-        
-                <div class="navLinks">
-                    <ul>
-                        <li><a href="#">Explore</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
+    <script src="https://kit.fontawesome.com/f8f40a0af7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <!--GOOGLE FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="contact.css">
+  </head>
+
+  <body>
+    <div class="bigContainer">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-lg">
+                <a class="logo navbar-brand me-5" href="#"><img src="image/Logo.png" alt="" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active me-3" aria-current="page" href="#">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-3" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-3" aria-current="page" href="#">Contact Us</a>
+                        </li>
                     </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-success me-3" type="submit">Sign In</button>
+                        <button class="btn btn-primary" type="submit">Sign Up</button>
+                    </form>
                 </div>
-        
-                <div class="searchInp">
-                    <input type="text" placeholder="Search credit card designs">
-                    <i class="fas fa-regular fa-magnifying-glass"></i>
-                </div>
-        
-                <div class="access">
-                    <button class="login">Login</button>
-                    <button class="register">Register</button>
+            </div>
+        </nav>
+    </div>
+
+    <div class="hero-container">
+        <div class="container mx-auto text-center">
+            <img src="image/rafiki-1.png" alt="hero-img" width="700px" class="hero-img">
+        </div>
+    </div>
+
+    <div class="hero d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col.lg-7 mx-auto text-center">
+                    <h2 class="display-7">Contact us anytime</h2>
                 </div>
             </div>
         </div>
-    
-        <section class="heroSection">
-            <img src="images/istockphoto-1364188241-612x612.jpg" alt="" class="heroImg">
-        </section>
-    
-        <section class="copySection" id="aboutUs">
-            <h1 class="title">About Us</h1>
-    
-            <p class="para">
-                XYZ is a website that allows anyone who likes fancy cards to come up and customize their own credit card. Users can view card samples and also download 
-    customized ones. Users have the opportunity to put in whatever designs they want even put any logo and picture they want. XYZ have about fifty thousand(50,000) active users worldwide and also over two hundred and twenty(220) card designs made available in over seventy four (74) countries. If you need to know more you can send us a mail via the contact us page. We are here to serve you and make sure you get the card designs you want.
-            </p>
-        </section>
-
-        <!-- facts section -->
-        <section class="factSection">
-            <h1 class="facts">Facts</h1>
-
-                <div class="factboxContainer">
-                    <div class="factbox first">
-                        <h1 class="factHeading">50K+</h1>
-                        <p class="factPara">Active users around the world </p>
-                    </div>
-        
-                    <div class="factbox second">
-                        <h1 class="factHeading">220+</h1>
-                        <p class="factPara">Credit card designs</p>
-                    </div>
-                    
-                    <div class="factbox third">
-                        <h1 class="factHeading">74+</h1>
-                        <p class="factPara">Active countries</p>
-                    </div>
-                </div>
-            
-        </section>
-
-
-        <!-- founders section -->
-        <section class="founderSection">
-            <h1 class="founders">Meet the founders</h1>
-
-            <div class="founderInfoContainer">
-                <div class="founderImgandCaption">
-                    <img src="images/granny-gebcde4c57_1920.jpg" alt="">
-                    <h2 class="founderName">J.O. Ademola</h2>
-                    <p class="founderPosition">Founder</p>  
-                </div>
-    
-                <div class="founderImgandCaption">
-                    <img src="images/model-ga17ea4842_1920.jpg" alt="">
-                    <h2 class="founderName">A.J. Styles</h2> 
-                    <p class="founderPosition">Co Founder</p> 
-                </div>
-    
-                <div class="founderImgandCaption">
-                    <img src="images/people-g8257d967b_1920.jpg" alt="">
-                    <h2 class="founderName">B.O.Kalejaye</h2> 
-                    <p class="founderPosition">Co Founder</p> 
-                </div>
-            </div>
-           
-
-        </section>
-
-
-        <footer class="footer">
-            <div class="footer1">
-                <div class="footerContent">
-                    <h2>Our Company</h2>
-                    <a href="#"><p class="firstFooterP">About Us</p></a>
-                    <a href="#"><p class="secondFooterP">Credit Cards</p></a>
-                    <a href="#"><p>Testimonias</p></a>
-                </div>
-
-                <div class="footerContent">
-                    <h2>Services</h2>
-                    <a href="#"><p class="firstFooterP">Explore Designs</p></a>
-                    <a href="#"><p class="secondFooterP">Financial Advice</p></a>
-                    <a href="#"><p>Mailing List</p></a>
-                </div>
-
-                <div class="footerContent">
-                    <h2>Support</h2>
-                    <a href="#"><p class="firstFooterP">FAQ</p></a>
-                    <a href="#"><p class="secondFooterP">Contact Us</p></a>
-                </div>
-
-                <div class="footerContent">
-                    <h2>Useful resources</h2>
-                    <a href="#"><p class="firstFooterP">Blogs</p></a>
-                    <a href="#"><p class="secondFooterP">Useful resources</p></a>
-                </div>
-            </div>
-
-
-            <div class="footer2">
-                <div class="footer2Content1">
-                    <h2>Visit us on social media</h2>
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <p>Copyrigyht @ 2022 Yenspace. All rights reserved.</p>
-                </div>
-
-                <div class="footer2Content2">
-                    <h2>Join Mailing List</h2>
-
-                    <input type="text" placeholder="Save money with our financial advice...">
-                    <button type="submit" class="footer2Button">Join</button>
-                </div>
-            </div>
-        </footer>
     </div>
-    
-</body>
+
+    <div class="email d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="email-section">
+                    <div class="col.lg-7 mx-auto text-center">
+                        <p class="paragraph my-4 mt-1 mb-5">Have a question about our products and services? <a href="#">Log In</a> to view our full FAQ page.<br>
+                        If you prefer to email us, you can do so cardvo@gmail.com</p>
+                        <a href="mailto:cardvo@gmail.com" class="btn2 btn-primary">Email Us</a>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="service-section">
+        <div class="service">
+            <div class="card-effect">
+                <div class="iconbox">
+                    <img src="image/Vector1.png" alt="" width="50px">
+                </div>
+                    <div class="service-text">
+                        <h4>Message an Agent</h4>
+                        <p class="desc1">Message an agent to get your<br> questions answered</p>
+                        <button class="btn1"><a href="#" class="msg">Send Message</a></button>
+                    </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="card-effect">
+                <div class="iconbox">
+                    <img src="image/Vector.png" alt="" width="50px">
+                </div>
+                <div class="service-text">
+                        <h4>NGN 1-600-CARDVO</h4>
+                        <p class="desc2">+234-810-3005-678 (English) <br>
+                        We're available to help you 24 hours <br> a day</p>
+                        <button class="btn1"><a href="tel:+234-810-3005-678" class="msg">Call Now</a></button>
+                        
+                </div>
+            </div>
+        </div>
+
+        <!--FAQ SECTION-->
+        <section>
+            <h1 class="title">Customer Service Frequently Asked Questions</h1>
+        
+            <div class="questions-container">
+                <div class="question">
+                    <button>
+                        <span>How do I contact the customer Service when I'm not in the country?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Start With An Online Course.An online tutorial is probably the best way to learn JavaScript.If you're serious about learning fast, efficiently and without missing any important information, then you should consider enrolling in an online course.</p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>How often are the customer service representatives available?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>I suggest taking a look at Typescript and learning some popular frontend framework (Angular, React, Vue). If you are interested in backend, take a look at Node. js.</p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>Do CardVo monitor phone calls?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam ea odit voluptate culpa quas explicabo.</p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>How do i initiate a live chat?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis pariatur a maiores minus tempore magni nam beatae dolores omnis.</p>
+                </div>
+
+                <div class="question">
+                    <button>
+                        <span>Can I contact a Cardvo representative online?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis pariatur a maiores minus tempore magni nam beatae dolores omnis.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The footer Section -->
+        <section class=" footer bg-dark text-light">
+            <div class="container-lg">
+                <div class="row justify-content-between align-items-start">
+                    
+                        <div class="col-md-3 py-3 smallfooterCont">
+                            <h1 class="footerHead">Our company</h1>
+                            <p class="footerList">
+                                <a href="#">About Us</a>
+                            </p>
+                            <p class="footerList">
+                                <a href="#">Credit Card</a>
+                            </p>
+                            <p class="footerList">
+                                <a href="#">Testimonials</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 py-3 smallfooterCont">
+                            <h1 class="footerHead">Services</h1>
+                            <p class="footerList">
+                                <a href="#">Explore Designs</a>
+                            </p>
+                            <p class="footerList">
+                                <a href="#">Financial Advice</a>
+                            </p>
+                            <p class="footerList">
+                                <a href="#">Mailing List</a>
+                            </p>
+                        </div>
+                    
+
+                    
+                        <div class="col-md-3 py-3 smallfooterCont">
+                            <h1 class="footerHead">Support</h1>
+                            <p class="footerList">
+                                <a href="#">FAQ</a>
+                            </p>
+                            <p class="footerList">
+                                <a href="#">Contact US</a>
+                            </p>
+                            
+                        </div>
+
+                        <div class="col-md-3 py-3 smallfooterCont">
+                            <h1 class="footerHead">Useful resources</h1>
+                            <p class="footerList">
+                                <a href="#">Documentation</a>
+                            </p>
+                            
+                        </div>
+                    
+                </div>
+
+                <div class=" row justify-content-between align-items-start ">
+                   
+
+                    <div class="order-md-2 col-md-5 mailInput">
+                        <h2 class="mailTitle">Subscribe to Mailing List</h2>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter email to access our advice" aria-label="Enter email to access our advice" aria-describedby="basic-addon2">
+                            <span class="input-group-text btn btn-primary" id="basic-addon2">@example.com</span>
+                        </div>
+                    </div>
+
+                    <div class=" order-md-1 col-md-4 socialIcons">
+                        <h1 class="visitSocial">Visit us on social media!</h1>
+                        <a href="#"><img class="img-fluid" src="images/Vector.png" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="images/Vector-1.png" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="images/Vector-2.png" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="images/Vector-3.png" alt=""></a>
+
+                        <p class="copyrigyht">Copyrigyht @ 2022 Yenspace. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
